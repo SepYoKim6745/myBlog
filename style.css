@@ -1,0 +1,36 @@
+* { 
+    /* 모든 요소들을 테두리와 안쪽 여백의 크기를 고려하기 위함 */
+    box-sizing: border-box;
+    border: 0px solid;
+}
+
+body {
+    margin : 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.header-inner {
+    display: flex;
+    
+}
+
+.header-logo {
+    justify-content: flex-start;
+}
+
+.header-nav {
+    justify-content: center;
+}
+
+.nav {
+    
+}
